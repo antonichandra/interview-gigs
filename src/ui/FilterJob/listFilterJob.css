@@ -1,0 +1,63 @@
+.buttonClose {
+    appearance: none;
+    outline: none;
+    border: none;
+    /* background: none; */
+    cursor: pointer;
+    
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-image: linear-gradient(to right, #CC2E5D, #FF5858); */
+    border-radius: 8px;
+    
+    /* color: #FFF; */
+    font-size: 1rem;
+    font-weight: 700;
+    
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+    transition: 0.4s ease-out;
+    float: right;
+}
+.buttonClose:hover {
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
+}
+.modalHeader{
+    padding-top:10px;
+    text-align: center;
+    /* background-color: slategray; */
+}
+.modalBody{
+    padding-top:50px;
+    text-align: center;
+    /* background-color: slategray; */
+}
+.largeTitle{
+    margin-bottom: 20px;
+}
+.smallTitle{
+    /* padding: 0px 20px; */
+    font-size: .8rem;
+    margin-bottom: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+    /* background-color: tomato; */
+    padding: 30px 10px;
+    
+}
+.card{
+    margin:5px;
+    padding:15px 25px;
+    border-radius: 16px;
+    border-style: groove;
+    width: 40px;
+    max-width: 40px;
+}
+.skillIcon{
+    margin-bottom: 10px;
+}
+.skillLabel{
+    font-size: 0.6rem;
+}

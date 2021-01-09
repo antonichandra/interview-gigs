@@ -1,0 +1,21 @@
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+npm install axios
+//npm install --save react-fontawesome
+//npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome
+npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
+//npm install --save react-router-dom
+//npm install @types/react-router-dom -D
+
+npm install --save bootstrap
+npm install --save reactstrap react react-dom
+
+npm install --save react react-dom leaflet
+npm install --save react-leaflet
+npm install -D @types/leaflet
+npm install leaflet @types/leaflet
+
+go to 
+https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
+
+Add to extension and allow it for Allow "CORS: Access-Control-Allow-Origin "
+

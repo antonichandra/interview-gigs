@@ -1,0 +1,57 @@
+#mapid { 
+    width: 300px; 
+    height: 110px; 
+    position: relative; 
+    outline: none;
+    transform: translate(-50%, -50%);
+}
+.modalBodyGigs{
+    padding-top:50px;
+    text-align: -webkit-center;
+    
+    /* background-color: slategray; */
+}
+.gigsModalDescription{
+    height: 100%;
+    max-height: 300px;
+    overflow: scroll;
+    font-size: .7rem;
+}
+.modalFooterGigs{
+    font-size: 2rem;
+    /* background-color: tomato; */
+    
+    text-align: -webkit-center;
+}
+.loveButton{
+    padding: 5px 5px;
+    border-radius: 16px;
+    border-color: crimson;
+    border-style: groove;
+    margin-top: 10px;
+    float: left;
+    color: crimson;
+    cursor: pointer;
+}
+.applyButton{
+    padding: 10px 20px;
+    width:75%;
+    margin:0px 5px 0px 5px;
+    appearance: none;
+    outline: none;
+    border: none;
+    /* background: none; */
+    cursor: pointer;
+    
+    display: inline;
+    padding: 10px 20px;
+    /* background-image: linear-gradient(to right, #CC2E5D, #FF5858); */
+    border-radius: 8px;
+    
+    /* color: #FFF; */
+    font-size: 1rem;
+    font-weight: 700;
+    
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+    transition: 0.4s ease-out;
+}
