@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import axios from 'axios';
 import { useCallback, useState } from 'react';
 import {
-    faSearch,
+    faTasks,
     faIdCard,
     faAppleAlt,
     faAsterisk,
@@ -23,6 +23,7 @@ import ListMyApplication from "./../MyApplication/listMyApplication"
 import PassingContext from "../passingContext";
 
 import './listGigs.css';
+import fire from '../../config/Fire';
 
 const ListGigs = (props: any) => {
     const [gigs, setGigs] = useState([]);
@@ -196,11 +197,11 @@ const ListGigs = (props: any) => {
                             value={searchValue || ""}
                             required
                         />
-                        <FontAwesomeIcon
-                            className="searchButton"
-                            onClick={toogleModalListFilterJob}
-                            icon={faSearch}
-                        />
+                            <FontAwesomeIcon
+                                className="searchButton"
+                                onClick={toogleModalListFilterJob}
+                                icon={faTasks}
+                            />
                     </div>
                 </div>
                 <div className="gigsBody">
@@ -241,9 +242,10 @@ const ListGigs = (props: any) => {
                             <p>There are no results</p>
                             <p>
                                 Please Click
+                                
                                 <FontAwesomeIcon
-                                    className="searchButton"
-                                    icon={faSearch}
+                                    style={{marginLeft:5,marginRight:5}}
+                                    icon={faTasks}
                                 />
                                 to find other results
                             </p>
@@ -257,6 +259,14 @@ const ListGigs = (props: any) => {
                         onClick={toogleModalListMyApplication}
                         icon={faIdCard}
                     />
+                    <button
+                        onClick={() => {
+                            fire.auth().signOut();
+                        }}
+                        className="buttonLogout"
+                    >
+                        Logout
+                    </button>
                 </div>
             </div>
             <PassingContext.Provider

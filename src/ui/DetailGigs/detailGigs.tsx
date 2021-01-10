@@ -103,6 +103,16 @@ const DetailGigs = (props: any) => {
                 </div>
                 <button
                     className="applyButton"
+                    style={
+                        clickedGigs.apply ?
+                            {
+                                backgroundColor: "#7cf800"
+                            }
+                            :
+                            {
+                                backgroundColor: "#ff8400"
+                            }
+                    }
                     onClick={() => applyClicked(clickedGigs.id)}
                 >
                     {clickedGigs.apply ? "Applied" : "Apply Now"}

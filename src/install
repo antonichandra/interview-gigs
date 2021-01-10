@@ -14,6 +14,8 @@ npm install --save react-leaflet
 npm install -D @types/leaflet
 npm install leaflet @types/leaflet
 
+npm install --save firebase
+
 go to 
 https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
 
