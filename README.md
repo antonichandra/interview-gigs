@@ -68,3 +68,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Installation Step
+
+This is Installation step which used to install some preferences.
+
+## Typescript
+
+Code to install Typescript in React:
+
+### npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+## Axios
+
+Code to install Axios in React:
+
+### npm install axios
+
+## FontAwesome
+
+Code to install FontAwesome in React:
+
+### npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
+
+## Bootstrap and reactstrap
+
+Code to install Bootstrap and reactstrap in React:
+
+### npm install --save bootstrap
+### npm install --save reactstrap react react-dom
+
+## Leaflet
+
+Code to install Leaflet in React:
+
+### npm install --save react react-dom leaflet
+### npm install --save react-leaflet
+### npm install -D @types/leaflet
+### npm install leaflet @types/leaflet
+
+## Firebase
+
+Code to install Firebase in React:
+
+### npm install --save firebase
+
+## CORS: Access-Control-Allow-Origin
+
+First go to this link and add this extension to your browser.
+Add to extension and allow it for Allow "CORS: Access-Control-Allow-Origin"
+
+### https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
+
+This extension is used for allow fetching data from https://jobs.github.com/api
